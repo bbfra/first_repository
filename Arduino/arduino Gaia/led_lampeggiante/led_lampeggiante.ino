@@ -1,7 +1,4 @@
-void setup() {
-  pinMode(2, OUTPUT);
-  pinMode(4, INPUT);
-}
+
 void loop() {
 if (digitalRead(4)) {
   // do Thing A
